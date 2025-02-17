@@ -1,0 +1,10 @@
+```python
+    import hashlib
+
+    target = '00085c9dc19e9348b7a9a9d2c35a1ef'
+    hash = hashlib.sha256()
+    while True:
+        if hash digest < target:
+            break
+        hash.update(b'sha256')  # 1
+    print(hash.digest)
